@@ -3,7 +3,8 @@ dotenv.config();
 
 
 export const URLS = {
-    SAUCEDEMOURL: process.env.SAUCEDEMOURL
+    SAUCEDEMOURL: process.env.SAUCEDEMOURL,
+    SAUCEDEMOURLINV: process.env.SAUCEDEMOURLINV
 }
 
 export const CREDENTIALS = {
