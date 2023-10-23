@@ -1,0 +1,19 @@
+{
+  "name": "course-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test login.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
